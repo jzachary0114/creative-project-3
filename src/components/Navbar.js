@@ -16,15 +16,15 @@ function Navbar() {
       <div className='leftSide' id={openLinks ? 'open' : 'close'}>
         <img src={burgerlogo} />
         <div className='hiddenLinks'>
-            <Link to='/'> Home </Link>
-            <Link to='/menu'> Menu </Link>
-            <Link to='/contact'> Contact </Link>
+            <Link to='home'> Home </Link>
+            <Link to='menu'> Menu </Link>
+            <Link to='contact'> Contact </Link>
         </div>
       </div>
       <div className='rightSide'>
-        <Link to='/'> Home </Link>
-        <Link to='/menu'> Menu </Link>
-        <Link to='/contact'> Contact </Link>
+        <Link to='home'> Home </Link>
+        <Link to='menu'> Menu </Link>
+        <Link to='contact'> Contact </Link>
       <button onClick={toggleNavbar}>
         <ReorderIcon />
       </button>
